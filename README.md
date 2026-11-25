@@ -1,8 +1,21 @@
 # Usman Nizam
 
-## Software Engineer
+## Software Engineer · GPU & ML Systems
 
-Passionate software engineer with expertise in full-stack development, cloud technologies, and modern software architecture. Experienced in building scalable applications and working with diverse technology stacks.
+Software engineer working across ML inference, GPU programming, and full-stack development. I currently contribute to [**neuroneural**](https://github.com/neuroneural), building fast, portable brain-MRI segmentation that runs on CPUs, NVIDIA, AMD and Apple GPUs, and in the browser. I also contribute to open-source projects including **Project MONAI** and **AMD ROCm**.
+
+🔍 **Open to new roles** in ML inference and training, ML Systems, AI Infrastructure, and Backend Development. Reach me on [LinkedIn](https://www.linkedin.com/in/mohammad-usman-nizam-0835b61a3/) or by [email](mailto:12usmannizam@gmail.com).
+
+
+## 🌍 Open Source Contributions
+
+### [AMD ROCm](https://github.com/ROCm/rocm-libraries) · rocm-libraries (MIOpen)
+- **[MIOpen dilated-convolution GEMM workspace (#15020)](https://github.com/ROCm/rocm-libraries/pull/15020)**: built and benchmarked the PR against its merge base on **gfx1151 (Radeon 8060S / Ryzen AI MAX+ 395)**, with and without the Composable Kernel plugin. Reported solver choice, kernel times, workspace and verification for 1D and 3D (fp32/bf16) dilated convolutions, including up to 5× faster 1D convolutions and cases where no solver had been found before. Also identified a CK plugin ABI mismatch (missing depthwise backward-data symbols) and worked around it with a shim.
+
+### [Project MONAI](https://github.com/Project-MONAI/model-zoo) · model-zoo
+- **[mindgrab skull-stripping bundle (#787)](https://github.com/Project-MONAI/model-zoo/pull/787)**: packaged the MindGrab MeshNet skull-stripping model as a MONAI bundle.
+- **[mindmap brain segmentation bundle (#789)](https://github.com/Project-MONAI/model-zoo/pull/789)**: ported the 24-channel, 18-class MeshNet whole-brain segmentation model to the MONAI bundle format, including the network, conform preprocessing, post-processing and a safetensors checkpoint loader with key remapping. Validated with `monai.bundle run` against the reference implementation at 98.8% voxel agreement.
+
 
 ## 🚀 Skills & Technologies
 
@@ -11,7 +24,20 @@ Passionate software engineer with expertise in full-stack development, cloud tec
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C"/>
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL"/>
+</div>
+
+### **ML & GPU Computing**
+<div align="center">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/MONAI-00A3E0?style=for-the-badge" alt="MONAI"/>
+  <img src="https://img.shields.io/badge/tinygrad-000000?style=for-the-badge" alt="tinygrad"/>
+  <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA"/>
+  <img src="https://img.shields.io/badge/ROCm%20%2F%20HIP-ED1C24?style=for-the-badge&logo=amd&logoColor=white" alt="ROCm / HIP"/>
+  <img src="https://img.shields.io/badge/Metal-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Metal"/>
+  <img src="https://img.shields.io/badge/WebGPU-005A9C?style=for-the-badge" alt="WebGPU"/>
+  <img src="https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white" alt="WebAssembly"/>
 </div>
 
 ### **Frontend Development**
@@ -71,13 +97,17 @@ Passionate software engineer with expertise in full-stack development, cloud tec
 - Optimized database performance and query efficiency
 - Built responsive and accessible user interfaces
 - Collaborated with cross-functional teams in agile environments
+- Shipped one C inference engine across CPU, CUDA, HIP, Metal, WebGPU, WebGL2 and WebAssembly backends
+- Profiled and optimized GPU inference (roofline analysis, kernel tuning, mixed precision) on AMD, NVIDIA and Apple hardware
+- Contributed models and benchmarks upstream to Project MONAI and AMD ROCm
 
 ## 🛠️ Development Workflow
 
 - **Agile/Scrum methodologies**
 - **Test-driven development (TDD)**
 - **Code review and pair programming**
-- **Performance optimization**
+- **Performance optimization & benchmarking**
+- **Cross-platform GPU validation**
 - **Security best practices**
 
 ## 📫 Contact
