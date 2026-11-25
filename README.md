@@ -104,6 +104,10 @@ Software engineer building fast, portable ML inference across CPUs, GPUs and the
 - **Cross-platform GPU validation**
 - **Security best practices**
 
+## 📊 GitHub
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=usmann56&theme=github-dark-blue&hide_border=true)](https://git.io/streak-stats)
+
 ## 📫 Contact
 
 - **GitHub**: [usmann56](https://github.com/usmann56)
