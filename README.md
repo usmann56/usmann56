@@ -2,20 +2,14 @@
 
 ## Software Engineer · GPU & ML Systems
 
-Software engineer working across ML inference, GPU programming, and full-stack development. I currently contribute to [**neuroneural**](https://github.com/neuroneural), building fast, portable brain-MRI segmentation that runs on CPUs, NVIDIA, AMD and Apple GPUs, and in the browser. I also contribute to open-source projects including **Project MONAI** and **AMD ROCm**.
+Software engineer building fast, portable ML inference across CPUs, GPUs and the browser. Previously built scalable microservices and event-driven backends with Django, NestJS, PostgreSQL and RabbitMQ.
 
-🔍 **Open to new roles** in ML inference and training, ML Systems, AI Infrastructure, and Backend Development. Reach me on [LinkedIn](https://www.linkedin.com/in/mohammad-usman-nizam-0835b61a3/) or by [email](mailto:12usmannizam@gmail.com).
+🔍 **Open to roles** in ML inference/training systems, AI infrastructure and backend development. Reaach me on · [LinkedIn](https://www.linkedin.com/in/mohammad-usman-nizam-0835b61a3/) · [Email](mailto:12usmannizam@gmail.com)
 
+## 🌍 Open Source
 
-## 🌍 Open Source Contributions
-
-### [AMD ROCm](https://github.com/ROCm/rocm-libraries) · rocm-libraries (MIOpen)
-- **[MIOpen dilated-convolution GEMM workspace (#15020)](https://github.com/ROCm/rocm-libraries/pull/15020)**: built and benchmarked the PR against its merge base on **gfx1151 (Radeon 8060S / Ryzen AI MAX+ 395)**, with and without the Composable Kernel plugin. Reported solver choice, kernel times, workspace and verification for 1D and 3D (fp32/bf16) dilated convolutions, including up to 5× faster 1D convolutions and cases where no solver had been found before. Also identified a CK plugin ABI mismatch (missing depthwise backward-data symbols) and worked around it with a shim.
-
-### [Project MONAI](https://github.com/Project-MONAI/model-zoo) · model-zoo
-- **[mindgrab skull-stripping bundle (#787)](https://github.com/Project-MONAI/model-zoo/pull/787)**: packaged the MindGrab MeshNet skull-stripping model as a MONAI bundle.
-- **[mindmap brain segmentation bundle (#789)](https://github.com/Project-MONAI/model-zoo/pull/789)**: ported the 24-channel, 18-class MeshNet whole-brain segmentation model to the MONAI bundle format, including the network, conform preprocessing, post-processing and a safetensors checkpoint loader with key remapping. Validated with `monai.bundle run` against the reference implementation at 98.8% voxel agreement.
-
+- **AMD ROCm / MIOpen**: benchmarked and validated [#15020](https://github.com/ROCm/rocm-libraries/pull/15020) (dilated-conv GEMM) on gfx1151; up to 5× faster 1D convs
+- **Project MONAI**: added the [mindgrab](https://github.com/Project-MONAI/model-zoo/pull/787) skull-stripping and [mindmap](https://github.com/Project-MONAI/model-zoo/pull/789) brain segmentation bundles to model-zoo
 
 ## 🚀 Skills & Technologies
 
